@@ -1,5 +1,5 @@
 .wrapper {
-    padding: 60px 60px 60px 80px;
+    padding: 60px 0px 0px 80px;
     display: flex;
     flex-direction: row;
 }
@@ -58,6 +58,7 @@
 }
 
 .font-copyright {
+    margin-top: 160px;
     margin-left: 80px;
     font-style: normal;
     font-weight: 700;
@@ -66,4 +67,9 @@
     display: flex;
     align-items: center;
     color: #A3A3A3;
+}
+
+.img-ellipse1 {
+    margin-top: 79px;
+    margin-left: 357px;
 }

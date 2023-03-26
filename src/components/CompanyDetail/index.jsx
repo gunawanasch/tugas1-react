@@ -3,13 +3,14 @@ import style from "./style.module.css"
 
 const CompanyDetail = () => {
     return (
-        <>
-            <div className={style["wrapper"]}>
+        <>                 
+            <div className={style["wrapper"]}>   
                 <div className={style["div-left"]}>
                     <p className={style["font-text"]}>TAGLINE edspert disini</p>
                     <p className={style["font-desc"]}>Jl. Watugede No.58, Wonorejo, Sariharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</p>    
                 </div>
                 <div className={style["div-right"]}>
+                    <img className={style["img-ellipse1"]} src={require('../../assets/images/ellipse1.png')} alt="img-sl" />              
                     <div className={style["wrapper"]}>
                         <div className={style["div1"]}>
                             <p className={style["font-title"]}>Program</p>
@@ -33,7 +34,7 @@ const CompanyDetail = () => {
                     </div>
                     <p className={style["font-copyright"]}>Edspert, copyright. Alamat boleh ditaruh disini apabila diinginkan.</p>
                 </div>
-            </div>
+            </div>       
         </>    
     );
 }
